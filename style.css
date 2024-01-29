@@ -491,7 +491,7 @@ p {
   }
 
   .cards {
-    width: 500px;
+    max-width: 450px;
     gap: 20px;
     padding: 30px;
   }
@@ -596,7 +596,7 @@ p {
   }
 
   .our-team-cards {
-    width: 400px;
+    max-width: 350px;
     gap: 5px;
   }
 
