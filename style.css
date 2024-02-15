@@ -414,9 +414,7 @@ p {
   }
 
   .card {
-    width: calc(
-      50% - 10px
-    ); /* This will make each card take up half the width of the container minus the gap */
+    width: calc (50% - 10px); /* This will make each card take up half the width of the container minus the gap */
     justify-content: center; /* Center the contents of the card */
   }
 
