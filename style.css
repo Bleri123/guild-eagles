@@ -406,20 +406,20 @@ p {
   }
 
   .cards {
-    width: 100%; /* Make sure this takes the full width available */
-    justify-content: center; /* This will center the cards in the container */
-    flex-wrap: wrap; /* Allow the cards to wrap */
-    gap: 20px; /* Add some space between the cards */
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 30px;
   }
 
   .card {
-    width: calc (50% - 10px); /* This will make each card take up half the width of the container minus the gap */
-    justify-content: center; /* Center the contents of the card */
+    width: calc (50% - 10px);
+    justify-content: center;
   }
 
   .map-image.rounded-image-small {
-    width: 80px; /* Adjust the size of the map images if necessary */
+    width: 80px;
     height: 80px;
     display: block;
   }
@@ -539,7 +539,7 @@ p {
   }
 }
 
-@media (min-width: 360px) and (max-width: 575px) {
+@media (max-width: 360px) {
   .third-row a {
     font-size: 14px;
   }
@@ -624,4 +624,7 @@ p {
   .partners {
     padding: 30px;
   }
+}
+
+@media (min-width: 300px) and (max-width: 359px) {
 }
