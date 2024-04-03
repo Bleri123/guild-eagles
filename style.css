@@ -79,7 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 0;
+  padding: 20px 5px;
 }
 .second-row {
   display: flex;
@@ -627,4 +627,49 @@ p {
 }
 
 @media (min-width: 300px) and (max-width: 359px) {
+  .team-photo {
+    height: 500px;
+  }
+  .our-team-cards {
+    font-size: 12px;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-social-media {
+    gap: 30px;
+  }
+  .footer1 {
+    padding-top: 20px;
+  }
+
+  .icon-with-text {
+    padding-top: 20px;
+  }
+
+  .our-team-cards {
+    width: 270px;
+    padding: 0;
+  }
+  .member {
+    font-size: 15px;
+  }
+
+  .our-team-info {
+    width: 245px;
+  }
+
+  .subheading {
+    font-size: 11px;
+  }
+
+  .social-media-icon {
+    width: 40px;
+  }
+  .third-row a {
+    font-size: 12px;
+  }
 }
