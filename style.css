@@ -317,7 +317,7 @@ p {
 }
 .footer-social-media {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .social-media-link {
@@ -481,6 +481,7 @@ p {
   .subheading {
     display: flex;
     justify-content: space-around;
+    padding: 30px;
   }
 
   .map-image.rounded-image-small {
@@ -522,17 +523,26 @@ p {
   }
 
   .member {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .our-team-cards {
-    padding: 30px;
+    width: 360px;
+    font-size: 11px;
+    gap: 10px;
   }
 
-  .footer-wrapper {
-    width: 550px;
-    padding: 10px;
+  .our-team-info{
+    width: 360px;
   }
+
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
   .general-info-wrapper {
     width: 700px;
@@ -593,10 +603,11 @@ p {
   }
 
   .our-team-cards {
-    max-width: 350px;
-    gap: 5px;
+    width: 270px;
+    padding: 0;
+    font-size: 12px;
   }
-
+  
   .social-media-icon {
     width: 30px;
   }
@@ -630,9 +641,7 @@ p {
   .team-photo {
     height: 500px;
   }
-  .our-team-cards {
-    font-size: 12px;
-  }
+
   .footer-wrapper {
     display: flex;
     flex-direction: column;
@@ -653,6 +662,7 @@ p {
   .our-team-cards {
     width: 270px;
     padding: 0;
+    font-size: 12px;
   }
   .member {
     font-size: 15px;
